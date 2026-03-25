@@ -3,9 +3,9 @@
         url('./../images/tajmal-2.jpg');
     background-size: cover;
     background-position: center;
-    height: 110vh;
+    height: 98vh;
     opacity: 0.9;
-    
+    margin-top: 81px;
 }
 
 .main-content {
@@ -112,10 +112,12 @@
     font-weight: 800;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .destination-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 115px;
     color: rgb(16, 1, 1);
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -129,7 +131,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-
+    margin-top: 30px;
 }
 
 .destination-section-items-1 {
@@ -303,75 +305,3 @@
     background-color: white;
 
 }
-@media screen and (max-width: 768px) {
-    .main-hero-section {
-       min-height: 100vh;
-    
-    }
-    .main-content {
-        font-size: 38px;
-        margin-left: 20px;
-        gap: 10px;
-    }
-    .sub-content {
-        font-size: 30px;
-    }
-     .highlighted-text-main-section {
-        font-size: 18px;
-        padding-top: 20px;
-    }
-    .highlighted-text-main-section {
-        font-size: 20px;
-        padding-top: 20px;
-    }
-    .main-info {
-        width: 90%;
-        font-size: 15px;
-        padding: 20px;
-    }
-    .destination-container{
-        flex-direction: column;
-        width: 80%;
-        border-radius: 11px;
-            padding: 20px;
-            margin-left: 20px;
-
-    }
-    .destination-input{
-        width: 100%;
-    }
-    .btn-search{
-        width: 100%;
-        padding: 15px;
-    }
-    .recommendation{
-        flex-wrap: wrap;
-        padding-left: 20px;
-    }
-    .destination-section{
-        margin-top: 158px;
-    }
-    .destination-section-heading{
-        font-size: 30px;
-    }
-    .destination-section-description{
-        font-size: 15px;
-        padding: 0 20px;
-    }
-    .destination-section-container{
-        flex-direction: column;
-        align-items: center;
-    }
-    .work-section-heading{
-        font-size:30px ;
-    }
-    .work-section-description{
-         font-size: 15px;
-        padding: 0 20px;
-    }
-    .work-section-card-container{
-        flex-direction: column
-    }
-}
-
-

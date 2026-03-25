@@ -30,24 +30,3 @@
     width: 16%;
 }
 
-@media screen and (max-width: 768px) {
-    .footer-main-container {
-        height: auto;
-        padding: 20px;
-
-    }
-
-    .footer-menu-container {
-        flex-direction: column;
-        padding: 20px 35px;
-
-    }
-    .footer-child-item-1  {
-   width: 100%;
-}
-
-.footer-child-item {
-    width: 100%;
-
-}
-}

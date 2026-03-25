@@ -3,20 +3,28 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 3px;
+    padding-top: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.28);
+    z-index: 1000;
 }
 
-.website-name{
+.website-name {
     font-weight: 7px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    padding-right: 15PX;
+    padding-right: 100px;
+
 }
 
 .main-logo-image {
-    height: 130px;
-    width: 130px;
-    padding-left: 35px;
+    height: 80px;
+    width: 90px;
+    padding-left: 60px;
 }
 
 .img-container {
@@ -25,16 +33,33 @@
     align-items: center;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     flex-direction: row;
-    gap:30px;
-    padding-right: 20px;
+    align-items: center;
+    gap: 30px;
+    padding-right: 60px;
 }
 
-.menu{
+.menu {
     text-decoration: none;
-    font-weight:1000;
+    font-weight: 1000;
     color: white;
     font-size: 20px;
 }
+
+.menu:hover {
+    color: rgb(253, 122, 15);
+    text-shadow: 0px 0px 5px white;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
