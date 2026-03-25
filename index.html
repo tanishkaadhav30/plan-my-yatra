@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/navbar.css">
-    <style>
-    </style>
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
-      <!-- Navbar -->
+
+
+    <div class="main-hero-section">
+        <!-- Navbar -->
         <div class="main-container">
-            <img src="./images/mainlogo.png" alt="logo" class="main-logo-image" />
-            <h1 class="website-name"> Plan my <span style="color: #fb7456;"> Yatra</span> </h1>
+            <img src="./images/mlogo.png" alt="logo" class="main-logo-image" />
+            <h1 class="website-name"> Plan My <span style="color: #fb7456;"> Yatra </span> </h1>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+            <label for="menu-toggle" class="hamburger">
+                <img src="./images/hamburger-menu-svgrepo-com.png" height="35px" width="35px" alt="menu" />
+
+            </label>
+
 
             <div class="nav-menu">
                 <a href="./index.html" class="menu"> Home </a>
-                <a href="" class="menu"> Destination </a>
+                <a href="./pages/destination.html" class="menu"> Destinations </a>
                 <a href="" class="menu"> Plan Trip </a>
                 <a href="" class="menu"> About </a>
-                <a href="" class="menu"> Contact</a>
+                <a href="" class="menu"> Contact </a>
             </div>
 
             <div class="nav-menu">
-                <a href="" class="menu"> log in </a>
+                <a href="" class="menu"> Login </a>
                 <a href="" class="menu"> sign up </a>
             </div>
         </div>
+
+    </div>
 </body>
 </html>
