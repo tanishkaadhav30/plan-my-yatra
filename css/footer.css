@@ -29,4 +29,50 @@
 .footer-child-item {
     width: 16%;
 }
+/* ================= TABLET (601px - 1024px) ================= */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
 
+    .footer-main-container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-menu-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer-child-item-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-child-item {
+        width: 45%;
+    }
+}
+/* ================= MOBILE (max-width: 600px) ================= */
+@media screen and (max-width: 600px) {
+
+    .footer-main-container {
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .footer-menu-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-child-item-1,
+    .footer-child-item {
+        width: 100%;
+    }
+
+    .main-logoo-image {
+        width: 70px;
+        height: 60px;
+    }
+}

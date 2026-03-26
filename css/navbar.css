@@ -62,4 +62,68 @@
     color: white;
     display: none;
 }
+/* ================= TABLET (601px - 1024px) ================= */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
 
+    .main-logo-image {
+        height: 60px;
+        width: 70px;
+        padding-left: 20px;
+    }
+
+    .nav-menu {
+        gap: 15px;
+        padding-right: 20px;
+    }
+
+    .menu {
+        font-size: 16px;
+    }
+}
+/* ================= MOBILE (max-width: 600px) ================= */
+@media screen and (max-width: 600px) {
+
+    .main-container {
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .main-logo-image {
+        height: 50px;
+        width: 60px;
+        padding-left: 0;
+    }
+
+    .website-name {
+        padding-right: 0;
+        font-size: 18px;
+    }
+
+    /* Hide menu */
+    .nav-menu {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        display: none;
+    }
+
+    /* Show menu when active */
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .menu {
+        font-size: 18px;
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: block;
+        font-size: 26px;
+    }
+}
