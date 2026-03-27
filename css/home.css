@@ -4,13 +4,15 @@
     background-size: cover;
     background-position: center;
     height: 98vh;
+    width: 100%;
     opacity: 0.9;
     margin-top: 81px;
 }
 
 .main-content {
-    margin-left: 80px;
-    gap: 20px;
+ margin-left: 80px;
+ gap:20px; 
+ padding: 0 20px; 
 }
 
 .sub-content {
@@ -328,7 +330,8 @@
 
 @media screen and (max-width: 768px) {
     .main-hero-section {
-        min-height: 100vh;
+        min-height: 98vh;
+        width: 100%;
 
     }
 
